@@ -19,7 +19,7 @@ function Products() {
           return (
             <li>
               <b>{product.title}</b>
-              <img onClick={} src={product.thumbnail} alt="" />
+              <img src={product.thumbnail} alt="" />
             </li>
           );
         })}
